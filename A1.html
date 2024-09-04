@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>
+            SpendSmart
+        </title>
+        <link rel="stylesheet" href="A1.css">
+        <script src="A1.js"></script>
+    </head>
+    <body onload="main();">
+            <h1>SpendSmart</h1>
+            <!-- Q1: Write code to create nav bar. -->
+            <nav>
+                <ul>
+                    <!-- Q1: Create a list item for each tab. 
+                    Hiding tabs: Do this after you finish all other features. Use a JS function called showTab to do this. -->
+                    
+                    
+                </ul>
+            </nav>
+            
+            <div id="container">
+                <div id="Add">
+                    <h2>ADD Expense</h2>
+                    <div class="form">
+                        <!-- Q2: Code to create labels and inputs to add an expense. 
+                         Give unique HTML id to each, to identify them in JS later. In the JS, add an event listener to submit button. -->
+                       
+                    </div>
+
+                    <div>
+                        <p class="Addresult"></p>
+                    </div>    
+                </div>
+                <div id="Update">
+                    <h2>Update Expense</h2>
+                    <div class="form">
+                        <!-- Q3: Code to update labels and inputs to add an expense identified using the ID. 
+                        Give unique HTML id to each, to identify them in JS later. In the JS, add an event listener to submit button.  -->
+                    </div>
+
+                    <div>
+                        <p class="Updateresult"></p>
+                    </div>    
+                </div>
+                <div id="Delete">
+                    <h2>Delete Expense</h2>
+                    <div class="form">
+                        <!-- Q3: Code to delete an expense identified using the ID. 
+                        In the JS, add an event listener to submit button.  -->
+
+                    </div>
+
+                    <div>
+                        <p class="Deleteresult"></p>
+                    </div>    
+                </div>
+                <div id="Display">
+                        <h2>Expense List</h2>
+                        <!-- Q4: Code to display the expenses.
+                        Modify the table body from Javascript, as taught in lecture.  -->
+                        <table >
+                            <thead>
+                                <tr><th>Serial Number</th><th>Title</th><th>Amount</th></tr>
+                            </thead>
+                            <tbody id="displayTable">
+                                
+                            </tbody>
+                        </table>
+                </div>
+            </div>    
+    </body>
+</html>
